@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BTEX.cs" />
+    <Compile Include="BTEXSurface.cs" />
     <Compile Include="DDS.cs" />
     <Compile Include="DX10.cs" />
     <Compile Include="PixelFormat.cs" />

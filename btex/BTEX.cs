@@ -85,6 +85,10 @@ namespace btex {
 						p_ImageFlags = 0,
 						p_HighTextureMipLevels = 0;
 
+		private string	p_Name = string.Empty;
+
+		private BTEXSurface p_Surface = null;
+
 		private byte[]	p_Data = null;
 
 		public static BTEX Deserialize(byte[] data) {
@@ -147,7 +151,28 @@ namespace btex {
 					btex.p_ArraySize = reader.ReadUInt16();
 
 					memory.Seek(btex.p_ImageHeaderOffset + btex.p_SurfaceHeaderOffset, SeekOrigin.Begin);
-					//memory.Seek(0, SeekOrigin.Begin);
+
+					btex.p_Surface = new BTEXSurface() {
+						Offset = reader.ReadUInt32(),
+						Size = reader.ReadUInt32()
+					};
+
+					memory.Seek(btex.p_ImageHeaderOffset + btex.p_NameOffset, SeekOrigin.Begin);
+
+					List<byte> nameBytes = new List<byte>();
+
+					byte current = 0x00;
+
+					do {
+						current = reader.ReadByte();
+
+						if (current != 0x00)
+							nameBytes.Add(current);
+					} while (current != 0x00);
+
+					btex.p_Name = Encoding.UTF8.GetString(nameBytes.ToArray());
+					memory.Seek(btex.p_FileSize, SeekOrigin.Begin);
+
 					btex.p_Data = reader.ReadBytes((int)(memory.Length - memory.Position));
 				}
 			}
@@ -172,21 +197,15 @@ namespace btex {
 				ResourceDimension = this.Dimension + 1u
 			};
 
-			//* experimenting with stuff trying to get 0x1a to work correctly
+			/* experimenting with stuff trying to get 0x1a to work correctly
 			if (dds.DX10Header.Format == 77) {
-				/*
-				pf.dwRBitMask == 0xff0000) && \
-   (pf.dwGBitMask == 0xff00) && \
-   (pf.dwBBitMask == 0xff) && \
-   (pf.dwAlphaBitMask == 0xff000000U))
-				*/
-				dds.PixelFormat.Flags |= (int)(PixelFormatFlags.RGB | PixelFormatFlags.Alpha);
+				dds.PixelFormat.Flags |= (int)(PixelFormatFlags.RGB | PixelFormatFlags.AlphaPixels);
 				dds.PixelFormat.RGBBitCount = 32;
-				dds.PixelFormat.BBitMask = 0xffffff;
-				dds.PixelFormat.GBitMask = 0x00ff00;
-				dds.PixelFormat.RBitMask = 0x0000ff;
+				dds.PixelFormat.BBitMask = 0x0000ff;
+				dds.PixelFormat.GBitMask = 0x00ff;
+				dds.PixelFormat.RBitMask = 0xff;
 				dds.PixelFormat.ABitMask = unchecked((int)0xff000000);
-			}
+			}*/
 
 			return dds;
 		}

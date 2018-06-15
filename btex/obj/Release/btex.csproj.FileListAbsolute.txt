@@ -4,3 +4,8 @@ C:\Users\jon\source\repos\ffxvearc\btex\obj\Release\btex.csproj.CoreCompileInput
 C:\Users\jon\source\repos\ffxvearc\btex\obj\Release\btex.dll
 C:\Users\jon\source\repos\ffxvearc\btex\obj\Release\btex.pdb
 C:\Users\jon\source\repos\ffxvearc\btex\obj\Release\btex.csprojResolveAssemblyReference.cache
+C:\Users\jon\source\repos\bdb\btex\bin\Release\btex.dll
+C:\Users\jon\source\repos\bdb\btex\bin\Release\btex.pdb
+C:\Users\jon\source\repos\bdb\btex\obj\Release\btex.csproj.CoreCompileInputs.cache
+C:\Users\jon\source\repos\bdb\btex\obj\Release\btex.dll
+C:\Users\jon\source\repos\bdb\btex\obj\Release\btex.pdb

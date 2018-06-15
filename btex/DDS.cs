@@ -137,7 +137,7 @@ namespace btex {
 				case 0x19:
 					return 74;
 				case 0x1a:
-					return 98;
+					return 77;
 				case 0x21:
 					return 80;
 				case 0x22:
