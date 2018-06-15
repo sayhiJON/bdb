@@ -1,0 +1,9 @@
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Release\btextoddsc.exe.config
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Release\btextoddsc.exe
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Release\btextoddsc.pdb
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Release\btex.dll
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Release\btex.pdb
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Release\btextoddsc.csprojResolveAssemblyReference.cache
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Release\btextoddsc.csproj.CoreCompileInputs.cache
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Release\btextoddsc.exe
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Release\btextoddsc.pdb

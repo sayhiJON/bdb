@@ -1,0 +1,10 @@
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Debug\btextoddsc.exe.config
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Debug\btextoddsc.exe
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Debug\btextoddsc.pdb
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Debug\btex.dll
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\bin\Debug\btex.pdb
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Debug\btextoddsc.csproj.CoreCompileInputs.cache
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Debug\btextoddsc.exe
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Debug\btextoddsc.pdb
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Debug\btextoddsc.csprojAssemblyReference.cache
+C:\Users\jon\source\repos\ffxvearc\btextoddsc\obj\Debug\btextoddsc.csproj.CopyComplete

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btex", "btex\btex.csproj", "{3C294179-8883-4A93-8ECE-5EB057F6CF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btextoddsc", "btextoddsc\btextoddsc.csproj", "{6CD89022-923F-4389-90A8-369EFC355EF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C294179-8883-4A93-8ECE-5EB057F6CF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C294179-8883-4A93-8ECE-5EB057F6CF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C294179-8883-4A93-8ECE-5EB057F6CF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C294179-8883-4A93-8ECE-5EB057F6CF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD89022-923F-4389-90A8-369EFC355EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD89022-923F-4389-90A8-369EFC355EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD89022-923F-4389-90A8-369EFC355EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD89022-923F-4389-90A8-369EFC355EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69E856A7-3F9F-4CCC-A0F1-E7BBD3AE8720}
+	EndGlobalSection
+EndGlobal
